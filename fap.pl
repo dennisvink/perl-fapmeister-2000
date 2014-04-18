@@ -1,0 +1,3 @@
+#!/usr/bin/perl
+
+use strict; use Time::HiRes qw(usleep); print "\033[2J\nFapmeister 2000\n"; while(1) { my $naptime = int(rand(100000-20000)) + 50000; print "\033[0;0H 8=D      \n"; usleep($naptime); print "\033[0;0H 8=3D     \n"; usleep($naptime); print "\033[0;0H 8==3=D   \n"; usleep($naptime); print "\033[0;0H 8=====3=D\n"; usleep($naptime); print "\033[0;0H 8==3=D   \n"; usleep($naptime); print "\033[0;0H 8=3D     \n"; usleep($naptime); }
